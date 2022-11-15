@@ -24,10 +24,17 @@ body {
 
 .first-section {
     margin: 0 -1rem;
-    padding: 8em;
-    display: flex;
     background-color: white;
     color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 600px;
+}
+
+.center-items {
+    width: 40%;
+    display: flex;
 }
 
 .first-section img {
